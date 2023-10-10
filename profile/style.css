@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.bg-aqua{
+    background-color: aqua;
+}
+.bg-red{
+    background-color: red;
+}
+.text-yellow{
+    color: yellow;
+}
+span{
+    border: 2px dotted black;
+}
