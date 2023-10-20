@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get" enctype="multipart/form-data">
+    <p>必要事項を入力の上、送信ボタンを押してください。</p>
+    ID(メールアドレス)<span class="bg-red">必須</span>　　　 <input type="email" name="id" size="30" required><br>
+    パスワード<span class="bg-red">必須</span>　　　　　　　 <input type="password" name="password" size="30" minlength="8" required>
+              <input type="checkbox" name="password_out">パスワードの表示<br>
+    氏名<span class="bg-red">必須</span>　　　　　　　　　　 性:<input type="text" name="name" reauired>
+                                        名:<input type="text" name="name" required><br>
+    住所:　　　　　　　　　　　〒 <input type="text" name="readonly" size="8" value="020-0104" readonly><br>
+            　　　　　　　　　　　　　 <input type="text" name="readonly" value="岩手県盛岡市小鳥沢" readonly><br>
+            　　　　　　　　　　　　　 <input type="text" name="address" placeholder="番地"><br>
+            　　　　　　　　　　　　　 <input type="text" name="address" placeholder="建物名"><br>
+    電話番号:<span class="bg-red">必須</span>　　　　　　　 <input type="text" name="tel" required ><br>
+    学科・学年:<span class="bg-red">必須</span>　　　　　　
+        <select name="gakka" required>
+            <option value="">選択してください</option>
+            <option value="システム系学科">システム系学科</option>
+            <option value="ビジネス系学科">ビジネス系学科</option>
+            <option value="デザイン系学科">デザイン系学科</option>
+        </select>
+        <select name="gakunen" required>
+            <option value="">選択してください</option>
+            <option value="1">1年</option>
+            <option value="2">2年<option>
+            <option value="3">3年</option>
+            <option value="4">4年</option>
+        </select><br>
+    お得な情報・クーポン<span class="bg-red">必須</span>　
+        <label><input type="radio" name="kupon" value="受け取る">受け取る</label>
+        <label><input type="radio" name="kupon" value="受け取らない">受け取らない</label><br>
+    <div>ご意見・ご要望:　　　　　　</div><textarea name="multiple" cols="50" rows="10" maxlength="200" placeholder="特になし"></textarea><br>
+    <button type="submit">確定して送信</button>
+    <button type="reset">リセット</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+html{
+    background-color: rgb(159, 159, 159);
+}
+.bg-red{
+    background-color: red;
+    border-radius:30%;
+    font-size: 10px;
+}
+form{
+    vertical-align: top;
+}
+
