@@ -2,12 +2,20 @@
 html{
     background-color: rgb(159, 159, 159);
 }
-.bg-red{
+.required{
     background-color: red;
     border-radius:30%;
     font-size: 10px;
 }
-form{
+th{
+    border :solid 1px black;
+    background-color: rgb(104, 102, 102);
+    text-align: left;
     vertical-align: top;
+    font-size: medium;
+    padding:5px;
 }
-
+td{
+    border :solid 1px black;
+    background-color: gray;
+}
