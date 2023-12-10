@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    margin: 0 auto;
+    
+}
+h1{
+    text-align: center;
+    color: azure;
+}
+h2{
+    text-align: center;
+}
+.out{
+    display:flex;
+    flex-wrap: wrap;
+    margin:60px;
+    
+}
+.item{
+    background-color: gray;
+    padding:10px;
+    margin: 0 auto;
+    width:25%;
+}
+.img{
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+a{
+    display: block;
+    width:90%;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    border: 1px solid white;
+    color: aqua;
+    border-radius: 20%;
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
