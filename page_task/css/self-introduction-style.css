@@ -1,0 +1,25 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+    margin:0 auto;
+}
+.mark-list li {
+    padding:10px;
+}
+h1 {
+    text-align: center;
+    border-bottom: 3px solid aqua;
+    border-top: 3px solid aqua;
+}
+.under_line {
+    border-bottom: 1px solid black;
+}
+h1 , ul{
+    margin-top: 20px;
+}
+.allall{
+    display: flex;
+}

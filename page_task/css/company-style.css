@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.company-introduction{
+    text-align: center;
+    margin:20px 0 20px 0;
+}
+.text-under-line{
+    border-bottom: 3px solid darkcyan;
+}
+table {
+    margin: 30px;
+    background-color: rgb(208, 208, 208);
+    color: black;
+    border-collapse: collapse;
+}
+th, td {
+    padding:20px;
+    border: 1px solid black;
+}
+.img {
+    margin:0 auto;
+}
+.company-list li {
+    padding-bottom: 10px;
+    list-style: "🐈";
+}
+.company-name{
+    text-align: center;
+}
+
+.url:hover{
+    color:darkcyan;
+}
+.sankou {
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.flex a , .flex p {
+    margin:30px auto;
+    padding:10px 30px;
+}
+.flex a:hover {
+    color: darkcyan;
+}
+.center-line {
+    padding:0 10px 0 10px;
+    border-left: 1px solid black;
+}
+.upper_button {
+    text-align: right;
+    margin:15px;
+}
+.upper_button .button{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25%;
+}
+.upper_button .button:hover {
+    text-decoration: none;
+    background-color: aqua;
+}
+.upper_button .text_button {
+    text-decoration: none;
+}

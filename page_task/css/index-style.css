@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.other {
+    margin: 30px;
+}
+.other li {
+    font-size: large;
+    margin-bottom: 10px;
+}
+.other li a:hover {
+    text-decoration: none;
+    color: white;
+}
+ol {
+    margin-left:100px;
+    margin-right: 100px;
+    padding: 0;
+}
+.other li p {
+    border-bottom: 1px solid black;
+}
+.nakami {
+    border-left: 10px solid rgb(98, 158, 158);
+}
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+.title-line {
+    border-bottom: 3px solid darkcyan;
+}
+.allall {
+     display: flex;
+     margin-bottom: 50px;
+}
+.morijyobi {
+    margin: 50px auto;
+}
+.line{
+    border-left: 1px solid black;
+}
+.mokuji{
+    text-align: center;
+}
+.other li {
+    list-style: "🐈";
+}

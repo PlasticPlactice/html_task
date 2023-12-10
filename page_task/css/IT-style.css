@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.IT_history , h3{
+    text-align: center;
+    margin:5px 0 10px 0;
+}
+.parts {
+    border-bottom: 3px solid aqua;
+}
+tr{
+    text-align: center;
+}
+th,td {
+    border: solid 1px;
+    padding:10px;
+}
+table {
+    border-collapse:  collapse;
+}
+.upper_button {
+    text-align: right;
+    margin:15px;
+}
+.upper_button .button{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25%;
+}
+.upper_button .button:hover {
+    text-decoration: none;
+    background-color: aqua;
+}
+.upper_button .text_button {
+    text-decoration: none;
+}
+table {
+    margin: 0 20px 0 20px;
+    background-color: rgb(208, 208, 208);
+    color: black;
+}
+th {
+    width:80px;
+}

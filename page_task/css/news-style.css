@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.news-introduction-tytle {
+    text-align: center;
+    margin:20px 0;
+}
+.text-underline {
+    border-bottom: 1px solid darkcyan;
+    font-size: large;
+}
+.list-style {
+    margin: 0 auto;
+    border-left: 3px solid darkcyan;
+}
+.flex {
+    display: flex;
+}
+.list-style ol li {
+    padding:5px;
+}
+.not-list {
+    padding:10px;
+}
+.url {
+    text-decoration: none;
+}
+.url:hover {
+    color: darkcyan;
+}
+.police {
+    width:50%;
+    padding:10px;
+}
+.upper_button {
+    text-align: right;
+    margin:15px;
+}
+.upper_button .button{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25%;
+}
+.upper_button .button:hover {
+    text-decoration: none;
+    background-color: aqua;
+}
+.upper_button .text_button {
+    text-decoration: none;
+}
+.cat li {
+    list-style: "🐶";
+}

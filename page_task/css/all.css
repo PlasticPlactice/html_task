@@ -1,0 +1,109 @@
+@charset "UTF-8";
+header, footer {
+    background-color: rgb(121, 121, 121);
+}
+.bg-color-pink {
+    background-color: rgb(121, 121, 121);
+}
+.background {
+    background-image: url(../img/yozora2.jpg);
+    
+}
+header nav ul {
+    display: flex;
+    list-style:none;
+    padding: 0px;
+    margin: 0;
+}
+header ul li {
+    flex: 20%;
+    text-align: center;
+}
+header ul li a {
+    display: block;
+    padding:0.5rem;
+    color:skyblue;
+    text-decoration: none;
+    /*太字にするプロパティ*/
+    font-weight: bold;
+}
+header ul li {
+    border: 2px solid darkblue;
+    border-radius: 10%;
+}
+header ul li:hover{
+    background-color: rgb(153, 152, 152);
+}
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+}
+.breadcrumbs li::after {
+    content: ">";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+.breadcrumbs li a:link {
+    color: rgb(191, 165, 187);
+}
+.breadcrumbs li a:visited {
+    color: rgb(187, 162, 162);
+}
+.breadcrumbs li a:hover {
+    text-decoration: none;
+    color: azure;
+}
+.breadcrumbs {
+    margin:0;
+    padding:16px 0px 16px 40px;
+}
+.logo {
+    text-align: center;
+}
+.background{
+    display: flex;
+}
+.background h2 {
+    flex: 8;
+    text-align: center;
+    padding-top: 90px;
+    color: rgb(207, 207, 207);
+    
+}
+body{
+    background-color: rgb(174, 174, 174);
+    margin:0;
+}
+.logo img {
+    border: 1px solid black;
+}
+.map {
+    text-align: center;
+    padding: 30px 0;
+}
+.map-tytle {
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+tr td {
+    margin:0 auto;
+}
+.flex {
+    display: flex;
+    padding-bottom: 30px;
+}
+.matomari {
+    margin: 0 auto;
+}
+.matomari.twitter {
+    border-left: 1px solid black;
+}
+.map-tytle , .twitter-timeline {
+    padding:10px 50px;
+}
+.text-under-line {
+    border-bottom: 1px solid darkcyan;
+}
