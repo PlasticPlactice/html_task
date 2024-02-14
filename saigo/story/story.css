@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.story-introduction {
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 390px;
+    color: antiquewhite;
+}
+
+.grid {
+    margin-top: 50px;
+}
+
+.ball-img , .parudea-img , .miraidon-img , .img-list{
+    width: 375px;
+    height: 210px;
+}
+ 
+.out-box {
+    margin-top: 40px;
+    margin-left: 5em;
+    max-width: 400px;
+    border: 3px solid gray;
+    border-radius: 10%;
+    padding: 10px;
+    list-style: none;
+    background-color: antiquewhite;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gradient1{
+    display: inline-block;
+    color:#fff;
+    padding: 18px 60px;
+    border-radius:30px;
+    text-decoration: none;
+    outline: none;
+    background: linear-gradient(270deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+    background-position: 1% 50%;
+    background-size: 200% auto;
+    transition: all 0.3s ease-out;
+}
+
+.gradient1:hover {
+    color: #fff;
+    background-position: 99% 50%;
+}
+
+.mg-under {
+    margin-bottom: 50px;
+}

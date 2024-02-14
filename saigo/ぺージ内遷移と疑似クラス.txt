@@ -1,0 +1,3 @@
+pokemon.cssの41行目から疑似クラス(hover)を使用しています。
+
+content.htmlの84行目からのasideクラスでページ内遷移を使用しています。

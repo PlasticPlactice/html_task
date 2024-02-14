@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#background-img {
+    background-image: url(../img/pk_three.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.pokemon-text {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.pokemon-flex {
+    display: flex;
+}
+
+.pokemon-btn {
+    height: 27rem;
+    border-radius: 10%;
+}
+
+.hogeta {
+    margin-left: 11rem;
+    width: 20%;
+}
+
+.kuwasu {
+    margin-left: 9rem;
+    width: 20%;
+}
+
+.nyaoha {
+    margin-left: 9%;
+    width: 22%;
+}
+
+.nyaoha:hover {
+    background-color: rgb(208, 255, 136 , 0.4);
+    transition: 0.5s;
+}
+
+.kuwasu:hover {
+    background-color: rgb(170, 255, 255 , 0.4);
+    transition: 0.5s;
+}
+
+.hogeta:hover {
+    background-color: rgb(255, 147, 147 , 0.4);
+    transition: 0.5s;
+}
